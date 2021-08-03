@@ -1,0 +1,202 @@
+/* ==== Contact CSS === */
+.bd_contact_col{
+	background: #fff;
+	border-radius: 10px;
+	border-top: 3px solid #4B9DD6;
+	margin:5px 5px;
+	padding:10px 15px;
+}
+.contact__item{
+	margin:15px 0px;
+	border: 3px solid #f4f4f4;
+	transition: transform 0.2s;
+}
+.contact__item:hover{
+	transform: scale(1.01);
+}
+.contact__item:hover .icon{
+	background:#4B9DD6;
+	color:#fff;
+	padding-left:0;
+}
+.contact__item:hover{
+	border:3px solid #4B9DD6;
+}
+.contact__item .icon{
+	background: #f4f4f4;
+	padding:30px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	color:#4B9DD6;
+	padding-right: 0;
+	padding-left:0;
+}
+.contact_detail{
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+.contact_detail p{
+	line-height: 1.2;
+}
+.contact__item .icon i{
+	background-image:url("../images/web-icons.webp");
+    background-repeat: no-repeat;
+}
+.contact__item .icon i.icon-marker{
+	background-position: -167px -40px;
+    padding: 15px 20px;
+}
+.contact__item:hover .icon i.icon-marker{
+	background-position: -200px -40px;
+    padding: 15px 20px;
+}
+.contact__item .icon i.icon-email{
+	background-position: -170px -80px;
+    padding: 15px 20px;
+}
+
+.contact__item:hover .icon i.icon-email{
+	background-position: -212px -82px;
+    padding: 15px 20px;
+}
+
+.contact__item .icon i.icon-phone{
+	background-position: -170px -116px;
+    padding: 15px 20px;
+}
+.contact__item:hover .icon i.icon-phone{
+	background-position:-208px -116px;
+    padding: 15px 20px;
+}
+.contact__item h4{
+	text-transform: uppercase;
+	font-size: 16px;
+	color:#4B9DD6;
+}
+.bd_form-col label{
+	width:100%;
+	display:block;
+	color:#4B9DD6;
+}
+.bd_form-col input,
+.bd_form-col textarea{
+	width:100%;
+	padding:15px 10px;
+	margin-bottom:18px;
+	outline:none;
+}
+.bd_form-col input:focus,
+.bd_form-col textarea:focus{
+   border: 2px solid #4B9DD6;
+}
+button.btn-contact{
+	width:160px;
+	height:50px;
+	background: #4B9DD6;
+	font-size:16px;
+	color:#fff;
+	border: 2px solid #4B9DD6;
+	outline: none;
+	cursor:pointer;
+}
+button.btn-contact:hover{
+	background: transparent;
+	color:#4B9DD6;
+}
+ul.contact_nav{
+	display: flex;
+	margin:5px 0px;
+	padding:2px 10px;
+}
+ul.contact_nav li{
+	display: inline-block;
+    width:45px;
+    height:45px;
+    background:#4B9DD6;
+    margin:6px 5px;
+}
+ul.contact_nav li a{
+	color:#fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:12px;
+}
+ul.contact_nav li a i{
+    background-image:url("../images/web-icons.webp");
+    background-repeat: no-repeat;
+}
+
+ul.contact_nav li.icon-facebook:hover{
+    background-color: #3b5999;
+}
+ul.contact_nav li.icon-facebook i{
+    background-position: -2px -5px;
+    padding: 15px 20px;
+}
+ul.contact_nav li.icon-twitter:hover{
+    background-color: #00acee;
+}
+ul.contact_nav li.icon-twitter i{
+    background-position: -44px -10px;
+    padding: 15px 20px;
+}
+ul.contact_nav li.icon-linkedin:hover{
+    background-color: #0077b5;
+}
+ul.contact_nav li.icon-linkedin i{
+	background-position: -82px -4px;
+    padding: 15px 20px;
+}
+ul.contact_nav li.icon-instagram:hover{
+    background: linear-gradient(15deg,#ffb13d,#dd277b,#4d5ed4);
+}
+ul.contact_nav li.icon-instagram i{
+	background-position: -130px -5px;
+    padding: 15px 20px;
+}
+
+.map{
+	border:2px solid #ccc;
+	height:350px;
+}
+.map iframe{
+	height:100%;
+	width:100%;
+}
+.text-danger {
+    color: #dc3545;
+}
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.alert-dismissible {
+    padding-right: 4rem;
+}
+.alert {
+    position: relative;
+    padding: .75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.alert-dismissible .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .75rem 1.25rem;
+    color: inherit;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}

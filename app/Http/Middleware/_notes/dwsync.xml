@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Authenticate.php" server="business46.web-hosting.com" local="132566497040000000" remote="132640288200000000" Dst="0" />
+<file name="EncryptCookies.php" server="business46.web-hosting.com" local="132566497040000000" remote="132640288200000000" Dst="0" />
+<file name="PreventRequestsDuringMaintenance.php" server="business46.web-hosting.com" local="132566497040000000" remote="132640288200000000" Dst="0" />
+<file name="RedirectIfAuthenticated.php" server="business46.web-hosting.com" local="132566497040000000" remote="132640288200000000" Dst="0" />
+<file name="TrimStrings.php" server="business46.web-hosting.com" local="132566497040000000" remote="132640288200000000" Dst="0" />
+<file name="TrustHosts.php" server="business46.web-hosting.com" local="132566497040000000" remote="132640288200000000" Dst="0" />
+<file name="TrustProxies.php" server="business46.web-hosting.com" local="132566497040000000" remote="132640288200000000" Dst="0" />
+<file name="VerifyCsrfToken.php" server="business46.web-hosting.com" local="132566497040000000" remote="132640288200000000" Dst="0" />
+<file name="Authenticate.php" server="108.179.242.114" local="132566497040000000" remote="132650863200000000" Dst="0" />
+<file name="EncryptCookies.php" server="108.179.242.114" local="132566497040000000" remote="132650863200000000" Dst="0" />
+<file name="RedirectIfAuthenticated.php" server="108.179.242.114" local="132566497040000000" remote="132650863200000000" Dst="0" />
+<file name="PreventRequestsDuringMaintenance.php" server="108.179.242.114" local="132566497040000000" remote="132650863200000000" Dst="0" />
+<file name="TrimStrings.php" server="108.179.242.114" local="132566497040000000" remote="132650863200000000" Dst="0" />
+<file name="TrustProxies.php" server="108.179.242.114" local="132566497040000000" remote="132650863200000000" Dst="0" />
+<file name="TrustHosts.php" server="108.179.242.114" local="132566497040000000" remote="132650863200000000" Dst="0" />
+<file name="VerifyCsrfToken.php" server="108.179.242.114" local="132566497040000000" remote="132650863200000000" Dst="0" />
+</dwsync>

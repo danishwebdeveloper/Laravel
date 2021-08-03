@@ -1,0 +1,389 @@
+header.bd-header img {
+  height: 85vh;
+  object-position: center center;
+  position: relative;
+}
+@media only screen and (max-width:991px) {
+  header.bd-header img {
+    height: auto !important;
+    object-position: center center;
+    position: relative
+  }
+}
+@media only screen and (max-width:992px) {
+  .bd-banner-text h3 {
+    color: #e5e5e7;
+    font-size: 1.8em;
+    line-height: 1.3
+  }
+}
+@media only screen and (max-width:768px) {
+  .bd-banner-text {
+    background: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    right: 3%;
+    transform: translateY(-50%);
+    padding: 60px 20px
+  }
+  .bd-banner-text h3 {
+    color: #e5e5e7;
+    font-size: 1.5em;
+    line-height: 1.3
+  }
+}
+.quotes-section {
+  padding: 3% 0
+}
+.main-title {
+  font-size: 2.2em;
+  font-weight: 500;
+  text-align: center
+}
+.quotes-section .section-title {
+  font-size: 1.8em;
+  font-weight: 500;
+  text-align: center
+}
+.quotes-section article {
+  color: #434244;
+  margin: 9px 0;
+}
+.quotes-section article .article__column {
+  transition: transform .3s;
+  border: 2px solid #e5e5e7;
+  margin: 15px 0;
+  background: #fff;
+  height: 100%;
+  position: relative
+}
+.quotes-section article .article__column:hover {
+  transform: scale(1.06);
+  border: 2px solid #4b9dd6
+}
+.quotes-section article .article__column .quote-title + div {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 5px 10px
+}
+a.quote-image {
+  display: block;
+  margin: 0 0;
+}
+
+a.quote-image img{
+  width: 100%;
+ 	object-fit: cover;
+}
+.popular__column a.quote-image img{
+  width: 100%;
+	object-fit: cover;
+}
+.quote-body {
+  padding: 5px 8px 5px 8px
+}
+.quote-dt-value {
+  padding-left: 10px
+}
+.quote-title h3 {
+  line-height: 1.5
+}
+.quote-title h3 a {
+  color: #434244;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-align: justify;
+  margin: 3px 0;
+  padding: 5px 0;
+  text-decoration: none;
+      display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.quotes-section article .article__column:hover .quote-title h3 a {
+  color: #4b9dd6;
+  font-weight: 600
+}
+.quotes-section article i {
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px 12px
+}
+.quotes-section article .icon-calendar {
+  background-image: url(../images/calendar-icon.png)
+}
+.quotes-section article .icon-eye {
+  background-image: url(../images/eye-icon.png)
+}
+.quotes-section a.view-more {
+  background: #4b9dd6;
+  border-radius: 20px;
+  color: #fff;
+  padding: 10px 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+  transition: transform .3s
+}
+.quotes-section a.view-more:hover {
+  background: white;
+    border-radius: 20px;
+    color: #4b9dd6;
+}
+.quotes-section a.view-more i {
+  background-image: url(../images/arrow-icon.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px 20px
+}
+.quotes-section a.view-more:hover i {
+  background-image: url("../images/arrow-blue.png");
+
+}
+.quotes-section .article__column .quote-body {
+  margin: 0 0
+}
+.popular-quotes .popular__column {
+  border-radius: 10px;
+  background: #fff;
+  margin: 2px 5px;
+  padding: 15px 5px;
+  transition: transform .5s;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.popular-quotes .popular__column:hover {
+  border-top: 3px solid #4b9dd6
+}
+@-webkit-keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(.9);
+    transform: scale(.9)
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+@keyframes hvr-push {
+  50% {
+    -webkit-transform: scale(.9);
+    transform: scale(.9)
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1)
+  }
+}
+.hvr-push {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent
+}
+.hvr-push:active, .hvr-push:focus, .hvr-push:hover {
+  -webkit-animation-name: hvr-push;
+  animation-name: hvr-push;
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1
+}
+.popular-quotes .quote-title h3 {
+  color: #434244;
+  line-height: 1.2;
+  margin-bottom: 2px;
+      display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.popular-quotes a.quote-image {
+  display: flex;
+  margin: 4px 0
+}
+.popular-quotes .popular-bottom {
+  padding-top: 4px
+}
+.popular-quotes .quote-title h3 a {
+    color: #4b9dd6;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 0;
+	padding: 0;
+    text-decoration: none;
+    transition: all .5s;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+	line-height: 1.2rem;
+}
+.popular-quotes .popular__column {
+  margin-top: .3em;
+  border-top: 3px solid #eeede8;
+}
+.popular-quotes .popular__column:hover .quote-title h1 a {
+  font-weight: 600;
+  color: #4b9dd6
+}
+.popular-quotes p a {
+  color: #434244;
+  display: inline-block;
+  transition: transform .3s
+}
+.popular-quotes p a:hover {
+  transform: translateX(10px);
+  color: #4b9dd6
+}
+.popular-quotes p {
+  text-align: justify;
+  line-height: 1.3;
+  padding: 0px 0 3px 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+	font-size: 0.8rem;
+}
+.quote-list-one h3.section-title {
+  line-height: 1.65;
+  font-size: 3.5em;
+  font-weight: 400
+}
+.quote-list-one p {
+  font-size: 1.3em;
+  line-height: 1.3
+}
+.page-row {
+  display: flex;
+  justify-content: center
+}
+ul.pagination {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center
+}
+ul.pagination li.page-item {
+  display: inline-block;
+  margin: 2px 3px;
+  padding: 5px;
+  text-align: center;
+  width: 45px;
+  height: 40px;
+  background: #fff;
+  transition: transform .2s
+}
+@media only screen and (max-width:576px) {
+  .quote-list-one h3.section-title {
+    line-height: 1.65;
+    font-size: 2em !important;
+    font-weight: 400
+  }
+  ul.pagination li.page-item {
+    display: inline-block;
+    margin: 2px 3px;
+    padding: 5px;
+    text-align: center;
+    width: 40px;
+    height: 35px;
+    background: #fff;
+    transition: transform .2s
+  }
+  ul.pagination li.page-item:nth-child(4) {
+    display: none
+  }
+}
+ul.pagination li.page-item.active {
+  background: #4b9dd6
+}
+ul.pagination li.page-item.active a {
+  color: #fff !important
+}
+ul.pagination li.page-item a {
+  font-weight: 600;
+  color: #4b9dd6
+}
+ul.pagination li.page-item:hover {
+  transform: scale(1.06)
+}
+ul.pagination li.page-item a i {
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 8px 10px
+}
+ul.pagination li.page-item a i.icon-left {
+  background-image: url(../images/icon-left.webp)
+}
+ul.pagination li.page-item a i.icon-right {
+  background-image: url(../images/icon-right.webp)
+}
+.search-section .search-box {
+  width: 60%;
+  margin: 0 auto
+}
+.search-section .form-group {
+  position: relative
+}
+.search-section input {
+  width: 100%;
+  height: 50px;
+  padding: 15px 20px
+}
+.search-section .form-group a {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background: #ccc
+}
+.search-section .form-group .icon-search {
+  background-image: url(../images/search-icon.webp);
+  background-repeat: no-repeat;
+  background-position: 15px 25px;
+  padding: 15px 30px
+}
+.search-section h1 {
+  text-align: center;
+  color: #434244;
+  font-size: 2em;
+  margin: 5px 0
+}
+.search-section h1 span {
+  color: #4b9dd6
+}
+.norecord-box {
+  margin: 15px 0;
+  border-left: 4px solid #4b9dd6;
+  background: #fff;
+  padding: 10px 5px
+}
+.search-section .quote-title h3 a {
+  font-size: 1em !important;
+  margin-bottom: 10px;
+  text-align: left;
+      display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.quote-date i , .quote-date span{
+  font-size: 0.7rem;
+}
+.quote-views i , .quote-views span{
+  font-size: 0.7rem;
+}

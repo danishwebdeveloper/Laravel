@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name=".editorconfig" server="108.179.242.114" local="132566579849209745" remote="132566136600000000" Dst="0" />
+<file name=".env" server="108.179.242.114" local="132652074680341754" remote="132651714600000000" Dst="0" />
+<file name=".env.example" server="108.179.242.114" local="132566579863012932" remote="132566137200000000" Dst="0" />
+<file name=".ftpquota" server="108.179.242.114" local="132566579875030883" remote="132566155200000000" Dst="0" />
+<file name=".gitattributes" server="108.179.242.114" local="132566579876347503" remote="132566137800000000" Dst="0" />
+<file name=".gitignore" server="108.179.242.114" local="132566579889113368" remote="132566137800000000" Dst="0" />
+<file name=".htaccess" server="108.179.242.114" local="132566579889731426" remote="132566136600000000" Dst="0" />
+<file name=".styleci.yml" server="108.179.242.114" local="132566579910606067" remote="132566137200000000" Dst="0" />
+<file name=".user.ini" server="108.179.242.114" local="132566579910665903" remote="132566137800000000" Dst="0" />
+<file name="composer.json" server="108.179.242.114" local="132566579925936063" remote="132566137200000000" Dst="0" />
+<file name="artisan" server="108.179.242.114" local="132566579926005872" remote="132566137800000000" Dst="0" />
+<file name="composer.lock" server="108.179.242.114" local="132566579973229596" remote="132566137200000000" Dst="0" />
+<file name="db.php" server="108.179.242.114" local="132566579985476899" remote="132566136600000000" Dst="0" />
+<file name="favicon.ico" server="108.179.242.114" local="132566579986783390" remote="132566136600000000" Dst="0" />
+<file name="index.php" server="108.179.242.114" local="132566580023435379" remote="132566136600000000" Dst="0" />
+<file name="error_log" server="108.179.242.114" local="132566580033458602" remote="132566136600000000" Dst="0" />
+<file name="package.json" server="108.179.242.114" local="132566580041267715" remote="132566137200000000" Dst="0" />
+<file name="php.ini" server="108.179.242.114" local="132566580042195250" remote="132566136600000000" Dst="0" />
+<file name="phpunit.xml" server="108.179.242.114" local="132566580048897330" remote="132566136600000000" Dst="0" />
+<file name="README.md" server="108.179.242.114" local="132566580057045535" remote="132566136600000000" Dst="0" />
+<file name="robots.txt" server="108.179.242.114" local="132566580064794832" remote="132566136600000000" Dst="0" />
+<file name="server.php" server="108.179.242.114" local="132566580071367909" remote="132566136600000000" Dst="0" />
+<file name="web.config" server="108.179.242.114" local="132566580075656436" remote="132566137800000000" Dst="0" />
+<file name="webpack.mix.js" server="108.179.242.114" local="132566580079605808" remote="132566137200000000" Dst="0" />
+<file name="index.php" server="business46.web-hosting.com" local="132679552117934229" remote="132679227600000000" Dst="0" />
+<file name=".env" server="business46.web-hosting.com" local="132652078779255108" remote="132651754800000000" Dst="0" />
+<file name="db.php" server="business46.web-hosting.com" local="132566497040000000" remote="132640294800000000" Dst="0" />
+</dwsync>
