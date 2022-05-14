@@ -1,2 +1,1 @@
 # Xrays.io
-# TypeScript
